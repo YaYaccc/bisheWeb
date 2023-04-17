@@ -224,17 +224,6 @@
                                 <DropdownItem v-if="company&&company.version===1" name="createCompany">
                                     {{ $t('创建企业') }}
                                 </DropdownItem>
-<!--                                <DropdownItem name="newDesktop">-->
-<!--                                    <template>{{ $t('切换工作台') }}</template>-->
-<!--                                </DropdownItem>-->
-<!--                                <DropdownItem name="fullScreenMode" divided>-->
-<!--                                    <template v-if="inFullscreen==false">{{ $t('演示模式') }}</template>-->
-<!--                                    <template v-if="inFullscreen">{{ $t('退出演示模式') }}</template>-->
-<!--                                </DropdownItem>-->
-                                <!--                                    <DropdownItem name="about">
-                                                                        <div>{{$t('关于CORNERSTONE')}}</div>
-                                                                        <div style="font-size:12px;color:#bbb" v-if="websocketEventConnected">实时更新已启用</div>
-                                                                    </DropdownItem>-->
                                 <DropdownItem name="cleanCache" divided>
                                     {{ $t('清除本地缓存') }}
                                 </DropdownItem>
@@ -389,7 +378,7 @@ export default {
             this.currentModule = this.$route.params.page;
             var projectId = 0;
 
-            document.title = "CORNERSTONE";
+            document.title = "YaYaSystem";
             this.projectName = this.$t("首页");
             this.projectColor = null;
             for (var i = 0; i < this.projectList.length; i++) {
@@ -462,9 +451,7 @@ export default {
                 app.loadPage('/pm/index/dashboard')
             }
         },
-        clickHelpBtn() {
-            window.open('https://www.cornerstone365.cn/doc/doc.html')
-        },
+
         clickAccountMenu(item) {
             if (item === 'cmdb') {
                 this.showPlugin('cmdb');

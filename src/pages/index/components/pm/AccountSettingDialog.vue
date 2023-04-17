@@ -87,8 +87,8 @@
                 menuList:[
                     {name:this.$t("个人信息"),id:"1"},
                     {name:this.$t("账号密码"),id:"2"},
-                    {name:this.$t("消息通知"),id:"3"},
-                    {name:this.$t("语言设置"),id:"4"},
+                    // {name:this.$t("消息通知"),id:"3"},
+                    // {name:this.$t("语言设置"),id:"4"},
                 ],
                 account:{},
             }

@@ -9,12 +9,10 @@
     {
         "en": {
             "欢迎": "Welcome",
-            "欢迎使用CORNERSTONE，点击开始查看操作指引": "Welcome to CORNERSTONE",
             "开始使用": "Start"
         },
         "zh_CN": {
             "欢迎": "欢迎",
-            "欢迎使用CORNERSTONE，点击开始查看操作指引": "欢迎使用CORNERSTONE，点击开始查看操作指引",
             "开始使用": "开始使用"
         }
     }
@@ -25,7 +23,6 @@
         :loading="false" :title="$t('欢迎')" width="500" :footer-hide="true">
 
         <div class="intro">
-           <div style="padding:30px"> {{$t('欢迎使用CORNERSTONE，点击开始查看操作指引')}}</div>
            <div style="padding:30px"> <Button @click="confirm" type="default" size="large" >{{$t('开始使用')}}</Button></div>
         </div>
     </Modal>

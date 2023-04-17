@@ -1,9 +1,6 @@
 /*
 
-Bryntum Scheduler 3.0.0
-Copyright(c) 2019 Bryntum AB
-https://bryntum.com/contact
-https://bryntum.com/license
+
 
 */
 @charset "UTF-8";
@@ -18,8 +15,7 @@ https://bryntum.com/license
   src: url(fonts/fa-solid-900.eot);
   src: url(fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(fonts/fa-solid-900.woff2) format("woff2"), url(fonts/fa-solid-900.woff) format("woff"), url(fonts/fa-solid-900.ttf) format("truetype"), url(fonts/fa-solid-900.svg#fontawesome) format("svg"); }
 
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-readers do not read off random characters that represent icons */
+
 .b-fa-500px:before {
   content: "\F26E"; }
 

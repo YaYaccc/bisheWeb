@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>CORNERSTONE文件编辑</title>
+    <title>YaYaSystem 文件编辑</title>
     <script type="text/javascript" src="<c:out value="${webUrl}" />pageoffice.js"></script>
     <script type="text/javascript">
         function Save() {

@@ -159,7 +159,7 @@
             }
         },
         mounted(){
-            document.title="CORNERSTONE " + this.$t('代码助手')
+            document.title="YaYaSystem " + this.$t('代码助手')
             this.account=app.account;
             this.loadData();
         },

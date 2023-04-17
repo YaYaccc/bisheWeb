@@ -21,13 +21,13 @@
         <img src="/image/logo.png" class="logo-image">
       </div>
       <div class="title">
-        是否授权以下应用访问你的<span class="cornerstone">CORNERSTONE</span> 账号？
+        是否授权以下应用访问你的<span class="cornerstone">YaYaSystem</span> 账号？
       </div>
       <div class="authorize-content">
         <div class="authorize-apps">
           <div class="authorize-apps-cornerstone">
             <div class="icon"></div>
-            <div class="text">CORNERSTONE</div>
+            <div class="text">YaYaSystem</div>
           </div>
           <div class="authorize-apps-exchange">
             <div class="icon"></div>

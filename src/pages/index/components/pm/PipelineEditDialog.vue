@@ -174,9 +174,7 @@ export default {
                 }
                  this.loadRole();
             },
-            showHelp(){
-                window.open('https://www.cornerstone365.cn/doc/doc.html#/devops');
-            },
+
             
             loadRole(){
                 app.invoke('BizAction.getRoleInfoList',[app.token,1],(list)=>{

@@ -155,9 +155,9 @@
                 {{formItem.templateName}}
             </FormItem>
 
-            <FormItem v-if="formItem.isTemplate" :label="$t('项目类型')">
+            <!-- <FormItem v-if="formItem.isTemplate" :label="$t('项目类型')">
                 {{$t('项目模板')}}
-            </FormItem>
+            </FormItem> -->
 
 
             <FormItem label="">

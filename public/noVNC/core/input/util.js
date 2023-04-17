@@ -1,7 +1,3 @@
-/* [module]
- * import KeyTable from "./keysym";
- * import keysyms from "./keysymdef";
- */
 
 var KeyboardUtil = {};
 

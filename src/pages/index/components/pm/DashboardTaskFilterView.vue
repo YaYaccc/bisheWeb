@@ -65,45 +65,7 @@
     }
 </i18n>
 <template>
-<!--    <div>-->
-<!--        <div class="menu-item-group">{{$t('责任人类型')}}</div>-->
-<!--        <div :class="{'filter-tag-select':hasFilter('resType',1)}" @click="toggleFilter('resType',1)" class="filter-tag">-->
-<!--            {{$t('主要责任人')}}-->
-<!--        </div>-->
-<!--        <div :class="{'filter-tag-select':hasFilter('resType',2)}" @click="toggleFilter('resType',2)" class="filter-tag">-->
-<!--            {{$t('次要责任人')}}-->
-<!--        </div>-->
 
-<!--        <div class="menu-item-group">{{$t('日期筛选')}}</div>-->
-<!--        <div :class="{'filter-tag-select':filters.dateType==1}" @click="setDateFilter(1)" class="filter-tag">-->
-<!--            {{$t('已超期')}}-->
-<!--        </div>-->
-<!--        <div :class="{'filter-tag-select':filters.dateType==2}" @click="setDateFilter(2)" class="filter-tag">-->
-<!--            {{$t('本周到期')}}-->
-<!--        </div>-->
-<!--        <div :class="{'filter-tag-select':filters.dateType==3}" @click="setDateFilter(3)" class="filter-tag">-->
-<!--            {{$t('今日到期')}}-->
-<!--        </div>-->
-<!--        <div :class="{'filter-tag-select':filters.dateType==4}" @click="setDateFilter(4)" class="filter-tag">-->
-<!--            {{$t('计划中')}}-->
-<!--        </div>-->
-
-<!--        <div class="menu-item-group" v-if="filterProjectList.length>0">{{$t('项目筛选')}}</div>-->
-<!--        <div :class="{'filter-tag-select':hasFilter('projectId',item.name)}"-->
-<!--             @click="toggleFilter('projectId',item.name)" class="filter-tag" v-for="item in filterProjectList"-->
-<!--             :key="'fp_'+item.name">{{item.name}}<span class="filter-count">{{item.count}}</span></div>-->
-
-<!--        <div class="menu-item-group" v-if="filterTypeList.length>0">{{$t('类型筛选')}}</div>-->
-<!--        <div :class="{'filter-tag-select':hasFilter('objectType',item.name)}"-->
-<!--             @click="toggleFilter('objectType',item.name)" class="filter-tag" v-for="item in filterTypeList"-->
-<!--             :key="'tp_'+item.name">{{item.name}}<span class="filter-count">{{item.count}}</span></div>-->
-
-<!--        <div class="menu-item-group" v-if="filterStatusList.length>0">{{$t('状态筛选')}}</div>-->
-<!--        <div :class="{'filter-tag-select':hasFilter('status',item.name)}"-->
-<!--             @click="toggleFilter('status',item.name)" class="filter-tag"-->
-<!--             v-for="item in filterStatusList" :key="'st_'+item.name">{{item.name}}<span class="filter-count">{{item.count}}</span>-->
-<!--        </div>-->
-<!--    </div>-->
 </template>
 
 <script>

@@ -105,18 +105,6 @@
             </FormItem>
 
 
-            <FormItem :label="$t('密码规则')">
-                <CheckboxGroup v-model="passwordRule.rules">
-                    <Checkbox :label="1">{{$t('8位密码')}}</Checkbox>
-                    <Checkbox :label="2">{{$t('包含大小写')}}</Checkbox>
-                    <Checkbox :label="3">{{$t('包含数字')}}</Checkbox>
-                    <Checkbox :label="4">{{$t('包含特殊字符')}}</Checkbox>
-                    <Checkbox :label="5">{{$t('不含用户名')}}</Checkbox>
-                    <Checkbox :label="6">{{$t('不与前两次重复')}}</Checkbox>
-                </CheckboxGroup>
-            </FormItem>
-
-
             <FormItem v-if="perm('company_admin_edit_company_info')" label="">
                 <Button @click="updateCompany" type="default">{{$t('保存')}}</Button>
             </FormItem>
@@ -124,7 +112,7 @@
 
         <div class="info-section-row" style="margin-bottom:15px;margin-top:30px">
             <div class="info-section-header">
-                {{$t('版本信息')}}
+                {{$t('企业信息')}}
             </div>
         </div>
 
@@ -249,7 +237,7 @@
             deleteCompany() {
                 app.confirm('确认要删除企业吗？一旦你删除了企业，企业内所有项目、成员，任务等信息将会被永久删除。请谨慎操作！', () => {
                     app.invoke('BizAction.deleteCompany', [app.token, this.formItem.id], (info) => {
-                        window.location.href = "https://cornerstone365.cn"
+                        window.location.href = "https://www.baidu.com"
                     })
                 })
             }

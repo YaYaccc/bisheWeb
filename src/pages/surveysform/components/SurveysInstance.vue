@@ -107,7 +107,6 @@
         </div>
       </transition>
       <div class="survey-footer">
-        由CORNERSTONE提供技术支持
       </div>
     </div>
   </div>

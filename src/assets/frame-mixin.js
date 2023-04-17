@@ -3,7 +3,7 @@ window.frameMixin = {
     data: {
         debug: true,
         version: "11-b200120",
-        name: "CORNERSTONE",
+        name: "YaYaSystem",
         serverAddr: "",
         loadingDialog: null,
         dataDicts: [],

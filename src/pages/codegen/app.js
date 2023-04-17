@@ -65,7 +65,7 @@ new Vue({
 	mixins: [frameMixin],
 	created:function(){
 		window.app=this;
-		app.name="CORNERSTONE";
+		app.name="YaYaSystem";
 		app.i18n = i18n;
         app.serverAddr="";
 		this.setup();

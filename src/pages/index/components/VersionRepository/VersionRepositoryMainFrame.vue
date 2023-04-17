@@ -294,7 +294,7 @@
         },
         created() {
             //原来的版本在头像侧边栏显示
-            document.title = '版本库管理 | CORNERSTONE';
+            document.title = '版本库管理';
         },
         mounted() {
             this.companyUuid = this.$route.params.uuid;

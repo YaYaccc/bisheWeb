@@ -74,7 +74,7 @@
         <TabPane label="短信邀请" name="mobile">
 
             <Form @submit.native.prevent   label-position="top" style="height:600px;padding:15px">
-                <div style="padding:15px 0px;color:#999;font-size:13px">如果被邀请人已经注册了CORNERSTONE，可以通过给被邀请人发送手机验证码的方式邀请加入企业</div>
+                <div style="padding:15px 0px;color:#999;font-size:13px"></div>
                 <FormItem label="手机号码">
                     <Input style="width:200px;margin-right:5px" v-model.trim="mobile" :placeholder="'输入被邀请人的手机号码'"></Input>
                     <Button :disabled="mobile==null||mobile.length!=11" @click="sendInviteSms()" type="default">发送验证码</Button>

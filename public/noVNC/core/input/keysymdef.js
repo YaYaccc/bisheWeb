@@ -1,7 +1,4 @@
-// This file describes mappings from Unicode codepoints to the keysym values
-// (and optionally, key names) expected by the RFB protocol
-// How this file was generated:
-// node /Users/jalf/dev/mi/novnc/utils/parse.js /opt/X11/include/X11/keysymdef.h
+
 
 var keysyms = (function(){
     "use strict";

@@ -184,7 +184,7 @@ export default {
         };
     },
     mounted() {
-        document.title = "CORNERSTONE CMDB";
+        document.title = "YaYaSystem CMDB";
         app.$on("PageChangeEvent", page => {
             this.currentModule = page;
         });

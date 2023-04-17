@@ -200,7 +200,7 @@
                 var mind = {
                     "meta": {
                         "name": this.queryInfo.project.name + "-" + this.objectTypeName,
-                        "author": "CORNERSTONE",
+                        "author": "YaYaSystem",
                         "version": "1"
                     },
                     "format": "node_tree",

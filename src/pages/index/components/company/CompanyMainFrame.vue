@@ -192,34 +192,15 @@
                         children:[
                             {name:this.$t('企业信息'),module:"company_info",permission:"company_admin"},
                             {name:this.$t('项目列表'),module:"company_project",permission:"company_admin_view_project"},
-                            // {name:this.$t('回收站'),module:"company_recycle_bin",permission:"company_admin_manage_recycle"},
-                            // {name:this.$t('汇报模板'),module:"company_report_template",permission:"company_report_template"},
                             {name:this.$t('系统通知'),module:"company_system_notification",permission:"company_admin_system_notifaction"},
                             {name:this.$t('操作日志'),module:"company_optlog",permission:"company_admin_manage"},
                     ]},
                     {name:this.$t('角色权限'),children:[
-                        {name:this.$t('组织架构'),module:"company_department",permission:"company_admin_manage_department"},
                         {name:this.$t('成员列表'),module:"company_user",permission:"company_admin_manage_member"},
-                        {name:this.$t('项目角色'),module:"company_role_project",permission:"company_admin_manage_project_role"},
-                        {name:this.$t('企业角色'),module:"company_role_global",permission:"company_admin_manage_company_role"},
                     ]},
-                    // {name:this.$t('供应商'),children:[
-                    //     {name:this.$t('供应商'),module:"company_supplier",permission:"supplier_list"},
-                    //     {name:this.$t('外包人员'),module:"company_supplier_member",permission:"supplier_list"},
-                    //     {name:this.$t('考勤列表'),module:"company_dingtalk_attendance",permission:"attendance_list"},
-                    // ]},
 
                 ],
                 privateDeployMenuList:[
-                    {name:this.$t('系统设置'),children:[
-                       /* {name:this.$t('对象类型'),module:"company_admin_object_type",permission:"company_admin_system_settings"},*/
-                        {name:this.$t('项目模板'),module:"company_admin_project",permission:"company_admin_system_settings"},
-                       /* {name:this.$t('参数设置'),module:"company_admin_setting",permission:"company_admin_system_settings"},*/
-                        // {name:this.$t('数据表格'),module:"company_datatable",permission:"company_admin_system_settings"},
-                       /* {name:this.$t('系统Hook'),module:"company_hook",permission:"company_admin_system_settings"},
-                        {name:'WebAPI',module:"company_webapi",permission:"company_admin_system_settings"},*/
-                        /*{name:"版本升级",module:"company_upgrade",permission:"company_admin_system_settings"},*/
-                    ]}
                 ]
             }
         },
@@ -264,7 +245,7 @@
                 if(this.companyInfo.uuid!=companyUUID){
                      app.invoke('BizAction.getCompanyInfoByUuid',[app.token,companyUUID],(info)=>{
                         this.companyInfo=info;
-                        document.title="CORNERSTONE "+info.name;
+                        document.title="YaYaSystem "+info.name;
                         app.company=info;
                         this.setupMenuPermission();
                     })

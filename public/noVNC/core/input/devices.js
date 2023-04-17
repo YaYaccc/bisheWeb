@@ -1,19 +1,4 @@
-/*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2012 Joel Martin
- * Copyright (C) 2013 Samuel Mannehed for Cendio AB
- * Licensed under MPL 2.0 or any later version (see LICENSE.txt)
- */
-
-/*jslint browser: true, white: false */
-/*global window, Util */
-
-/* [module]
- * import Util from "../util";
- * import KeyboardUtil from "./util";
- */
-
-/* [module] export */ var Keyboard;
+ var Keyboard;
 
 (function () {
     "use strict";

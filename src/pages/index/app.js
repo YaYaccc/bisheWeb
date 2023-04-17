@@ -118,7 +118,7 @@ new Vue({
     created() {
         window.app = this;
         app.i18n = i18n;
-        app.name = 'CORNERSTONE';
+        app.name = 'YaYaSystem';
         app.serverAddr = '';
         this.setup();
         app.invokeErrorHandler = (code, message) => {

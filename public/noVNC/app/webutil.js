@@ -1,20 +1,4 @@
-/*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2012 Joel Martin
- * Copyright (C) 2013 NTT corp.
- * Licensed under MPL 2.0 (see LICENSE.txt)
- *
- * See README.md for usage and integration instructions.
- */
 
-/*jslint bitwise: false, white: false, browser: true, devel: true */
-/*global Util, window, document */
-
-/* [module]
- * import Util from "../core/util";
- */
-
-// Globals defined here
 var WebUtil = {};
 
 /*

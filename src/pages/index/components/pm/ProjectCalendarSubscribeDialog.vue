@@ -8,7 +8,7 @@
 {
     "en": {
         "订阅日历": "Subscribe",
-        "你可以在":"You can view CORNERSTONE calendars in iCal-enabled software such as Apple Calendar.",
+        "你可以在":"You can view Calendar.",
         "如果你不希望":"If you don't want others to see the calendar content, don't share subscription links with them. If the link is leaked, you can ",
         "地址重新生成后原有的链接将不可用":"The original link will not be available after the address is regenerated",
         "重新生成地址":"Regenerate link",
@@ -17,7 +17,7 @@
     },
     "zh_CN": {
         "订阅日历": "订阅日历",
-        "你可以在":"你可以在 苹果日历 等支持 iCal协议的软件中查看 CORNERSTONE 的日历。",
+        "你可以在":"查看日历。",
         "如果你不希望":"如果你不希望其他人看到日历内容，请不要与他们共享订阅链接。如果泄露了链接您可以",
         "地址重新生成后原有的链接将不可用":"地址重新生成后原有的链接将不可用",
         "重新生成地址":"重新生成地址",

@@ -1,7 +1,5 @@
 (function(global) {
-    // CodeMirror version 3.15
-    //
-    // CodeMirror is the only global var we claim
+
     var CodeMirror = (function() {
       "use strict";
     
