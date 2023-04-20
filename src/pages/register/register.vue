@@ -86,9 +86,6 @@
     <div>
         <div class="app">
             <div class="main-box">
-                <div>
-                    <img src="/image/logo.png" class="logo-image">
-                </div>
                 <div class="info-title">开启高效协作之旅</div>
                 <div>
                     <input

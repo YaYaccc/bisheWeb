@@ -185,7 +185,7 @@ html, body {
                     </div>
 
                     <div
-                        v-if="systemConfig.isPrivateDeploy==false" class="register-bar">
+                        v-if="systemConfig.isPrivateDeploy==true" class="register-bar">
                         {{$t('还没有新账号吗？')}}
                         <a
                             class="reg-link" href="register.html">{{$t('注册新账号')}}</a>

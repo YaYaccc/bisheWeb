@@ -101,6 +101,21 @@
             <FormItem :label="$t('项目描述')" prop="description">
                 <Input v-model.trim="formItem.description" type="textarea" :rows="3"></Input>
             </FormItem>
+            <FormItem v-if="args.isTemplate||projectId==null" :label="$t('项目类型')">
+                <div class="project-type-box">
+                    <div
+                        @click="selectedTemplate=item.id"
+                        v-for="item in templateList"
+                        :key="'item_'+item.id"
+                        class="project-type-card"
+                        :class="{'project-card-select':item.id==selectedTemplate}">
+                        <div class="project-type-name">{{item.name}}</div>
+                        <div class="project-type-desc">{{item.description}}</div>
+
+                        <Icon type="md-checkmark" class="check" />
+                    </div>
+                </div>
+            </FormItem>
         </Form>
 
 
@@ -158,7 +173,14 @@
                 },
             };
         },
-        methods: {
+    methods: {
+        // 在created生命周期函数中调用：
+created() {
+  this.setSelectedTemplate();
+},
+        setSelectedTemplate() {
+            this.selectedTemplate = YOUR_SELECTED_TEMPLATE_ID;
+        },
             pageLoad() {
                 this.projectId = this.args.projectId;
                 this.selectedTemplate = this.args.projectId;
