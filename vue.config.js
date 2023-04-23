@@ -74,7 +74,7 @@ module.exports = {
         },
         proxy: {
             '/p': {
-                target: 'http://127.0.0.1:8888',
+                target: 'http://119.29.197.52:8888',
             },
         },
     },
